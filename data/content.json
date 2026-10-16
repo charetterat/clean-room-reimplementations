@@ -1,0 +1,348 @@
+{
+  "updated": "2026-10-17",
+  "meta": {
+    "title": "Clean-Room Reimplementations",
+    "tagline": "Open-source projects that rebuild closed software from the ground up",
+    "intro": "A curated index of clean-room reimplementations: projects that rebuild a specific closed-source product — an application, a game engine, a network protocol, an operating system — from scratch, rather than wrapping or forking the original. Every entry names the product being reimplemented and the language it is written in. Nothing here is a mirror or a repackaging.",
+    "owner_repo": "charetterat/clean-room-reimplementations",
+    "disclaimer": "Compiled from public sources — no independent testing of the linked projects. Star counts were read from the GitHub API on 2026-10-17 and drift daily. A high star count reflects attention, not correctness or completeness: several projects here are early and explicitly unfinished."
+  },
+  "sections": [
+    {
+      "title": "Applications",
+      "icon": "🖥️",
+      "description": "Desktop software rebuilt from scratch. This group is currently dominated by a wave of Rust rewrites that each target one widely-used commercial application.",
+      "items": [
+        {
+          "name": "PhotoCraft",
+          "url": "https://github.com/storytold/photocraft",
+          "what": "A photo editor written from scratch to stand in for Adobe Photoshop, including layered editing and non-destructive adjustment.",
+          "tags": [
+            "Photoshop",
+            "Rust"
+          ]
+        },
+        {
+          "name": "PdfCraft",
+          "url": "https://github.com/storytold/pdfcraft",
+          "what": "A PDF reader and editor reimplemented in place of Acrobat, covering viewing, annotation and page manipulation.",
+          "tags": [
+            "Acrobat",
+            "Rust"
+          ]
+        },
+        {
+          "name": "FilmCraft",
+          "url": "https://github.com/storytold/filmcraft",
+          "what": "A non-linear video editor written to fill the role of Adobe Premiere, with a timeline and render pipeline of its own.",
+          "tags": [
+            "Premiere",
+            "Rust"
+          ]
+        },
+        {
+          "name": "WordCraft",
+          "url": "https://github.com/storytold/wordcraft",
+          "what": "A word processor reimplemented to cover the Microsoft Word feature set, including layout and document formatting.",
+          "tags": [
+            "Microsoft Word",
+            "Rust"
+          ]
+        },
+        {
+          "name": "LightCraft",
+          "url": "https://github.com/storytold/lightcraft",
+          "what": "A non-destructive photo editor targeting the Lightroom workflow: cataloguing, develop settings and batch processing.",
+          "tags": [
+            "Lightroom",
+            "Rust"
+          ]
+        },
+        {
+          "name": "VectorCraft",
+          "url": "https://github.com/storytold/vectorcraft",
+          "what": "A vector art tool rebuilt in place of Adobe Illustrator, with paths, anchors and scalable editing.",
+          "tags": [
+            "Illustrator",
+            "Rust"
+          ]
+        },
+        {
+          "name": "EffectCraft",
+          "url": "https://github.com/storytold/effectcraft",
+          "what": "Motion graphics and compositing written from scratch as an alternative to After Effects.",
+          "tags": [
+            "After Effects",
+            "Rust"
+          ]
+        },
+        {
+          "name": "GridCraft",
+          "url": "https://github.com/storytold/gridcraft",
+          "what": "A spreadsheet reimplemented along the lines of Microsoft Excel, covering formulas and cell-model editing.",
+          "tags": [
+            "Excel",
+            "Rust"
+          ]
+        },
+        {
+          "name": "CadCraft",
+          "url": "https://github.com/storytold/cadcraft",
+          "what": "Computer-aided design and drafting rebuilt as a standalone application, targeting the AutoCAD working model.",
+          "tags": [
+            "CAD",
+            "Rust"
+          ]
+        },
+        {
+          "name": "DeckCraft",
+          "url": "https://github.com/storytold/deckcraft",
+          "what": "A presentation and slideshow tool reimplemented in place of PowerPoint, with slide layout and sequencing.",
+          "tags": [
+            "PowerPoint",
+            "Rust"
+          ]
+        },
+        {
+          "name": "SoundCraft",
+          "url": "https://github.com/storytold/soundcraft",
+          "what": "A digital audio workstation rebuilt to occupy the Pro Tools niche: multitrack recording, editing and mixing.",
+          "tags": [
+            "Pro Tools",
+            "Rust"
+          ]
+        },
+        {
+          "name": "FigCraft",
+          "url": "https://github.com/storytold/figcraft",
+          "what": "Interface design and prototyping reimplemented as an alternative to Figma, covering frames, components and layout.",
+          "tags": [
+            "Figma",
+            "Rust"
+          ]
+        },
+        {
+          "name": "paper-rs",
+          "url": "https://github.com/michaelshimeles/paper-rs",
+          "what": "A native Rust infinite-canvas design app, also aiming at the Figma use case, built on egui and wgpu rather than a web stack.",
+          "tags": [
+            "Figma",
+            "Rust"
+          ]
+        },
+        {
+          "name": "System7",
+          "url": "https://github.com/Kelsidavis/System7",
+          "what": "An open-source reimplementation of Apple Macintosh System 7, including the classic desktop and window manager.",
+          "tags": [
+            "System 7",
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Games and engines",
+      "icon": "🎮",
+      "description": "The oldest and most established corner of the practice: game engines and services rebuilt from reverse-engineered behaviour or published specifications, usually because the original is abandoned or the servers are gone.",
+      "items": [
+        {
+          "name": "SanAndreasUnity",
+          "url": "https://github.com/in0finite/SanAndreasUnity",
+          "what": "An open-source reimplementation of the GTA: San Andreas engine in Unity, loading the original game assets into a new runtime.",
+          "tags": [
+            "GTA: San Andreas",
+            "C#"
+          ]
+        },
+        {
+          "name": "Impostor",
+          "url": "https://github.com/Impostor/Impostor",
+          "what": "A reimplementation of the Among Us server, letting players host their own games after the official matchmaking changed.",
+          "tags": [
+            "Among Us",
+            "C#"
+          ]
+        },
+        {
+          "name": "Jazz² Resurrection",
+          "url": "https://github.com/deathkiller/jazz2",
+          "what": "An open-source reimplementation of Jazz Jackrabbit 2, including the original level formats and game logic.",
+          "tags": [
+            "Jazz Jackrabbit 2",
+            "C++"
+          ]
+        },
+        {
+          "name": "KisakCOD",
+          "url": "https://github.com/SwagSoftware/KisakCOD",
+          "what": "An open-source reimplementation of the Call of Duty 4 engine, assembled from leaked and reverse-engineered sources.",
+          "tags": [
+            "Call of Duty 4",
+            "C++"
+          ]
+        },
+        {
+          "name": "donut",
+          "url": "https://github.com/plowteam/donut",
+          "what": "An open-source reimplementation of The Simpsons: Hit & Run, targeting the original game's engine behaviour.",
+          "tags": [
+            "Simpsons Hit & Run",
+            "C++"
+          ]
+        },
+        {
+          "name": "Chariot",
+          "url": "https://github.com/ChariotEngine/Chariot",
+          "what": "A cross-platform reimplementation of the Age of Empires engine, written in Rust.",
+          "tags": [
+            "Age of Empires",
+            "Rust"
+          ]
+        },
+        {
+          "name": "Abyss Engine",
+          "url": "https://github.com/AbyssEngine/AbyssEngine",
+          "what": "A clean-room reimplementation of the Diablo 2 engine, written in C with its own asset pipeline.",
+          "tags": [
+            "Diablo 2",
+            "C"
+          ]
+        },
+        {
+          "name": "FreeHL",
+          "url": "https://github.com/eukara/freehl",
+          "what": "A clean-room reimplementation of Half-Life deathmatch and its game logic, built on the FreeCS codebase.",
+          "tags": [
+            "Half-Life",
+            "QuakeC"
+          ]
+        },
+        {
+          "name": "OpenBattlefield2",
+          "url": "https://github.com/Moxnatiy/OpenBattlefield2",
+          "what": "A clean-room reimplementation of DICE's Refractor 2 engine, the technology behind Battlefield 2.",
+          "tags": [
+            "Battlefield 2",
+            "C++"
+          ]
+        },
+        {
+          "name": "openDoJa",
+          "url": "https://github.com/GrenderG/openDoJa",
+          "what": "A desktop-focused clean-room reimplementation of DoJa, the Java-based mobile platform used by early Japanese phones.",
+          "tags": [
+            "DoJa",
+            "Java"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Services, runtimes and platforms",
+      "icon": "⚙️",
+      "description": "Not applications but infrastructure: protocols, servers, hardware runtimes and shells rebuilt so they can run without the vendor.",
+      "items": [
+        {
+          "name": "usque",
+          "url": "https://github.com/Diniboy1123/usque",
+          "what": "An open-source reimplementation of the Cloudflare WARP client, speaking the same protocol without the proprietary client.",
+          "tags": [
+            "Cloudflare WARP",
+            "Go"
+          ]
+        },
+        {
+          "name": "OpenTPU",
+          "url": "https://github.com/UCSBarchlab/OpenTPU",
+          "what": "An open-source reimplementation of Google's Tensor Processing Unit, reproduced from the published ISA documentation.",
+          "tags": [
+            "TPU",
+            "Python"
+          ]
+        },
+        {
+          "name": "Pash",
+          "url": "https://github.com/Pash-Project/Pash",
+          "what": "An open-source reimplementation of Windows PowerShell for Mono and .NET, so scripts can run off Windows. Archived upstream.",
+          "tags": [
+            "PowerShell",
+            "C#",
+            "Archived"
+          ]
+        },
+        {
+          "name": "LuxonServer",
+          "url": "https://github.com/niansa/LuxonServer",
+          "what": "A clean-room reimplementation of the Photon LoadBalancing server, the matchmaking layer many Unity games depend on.",
+          "tags": [
+            "Photon",
+            "C"
+          ]
+        },
+        {
+          "name": "libdragon",
+          "url": "https://github.com/DragonMinded/libdragon",
+          "what": "An open-source SDK for the Nintendo 64, built by reverse-engineering the official development libraries. Archived upstream; superseded by the community fork.",
+          "tags": [
+            "Nintendo 64 SDK",
+            "C",
+            "Archived"
+          ]
+        }
+      ]
+    }
+  ],
+  "verification_sources": [
+    {
+      "name": "PhotoCraft",
+      "url": "https://github.com/storytold/photocraft",
+      "expected_token": "photocraft"
+    },
+    {
+      "name": "WordCraft",
+      "url": "https://github.com/storytold/wordcraft",
+      "expected_token": "wordcraft"
+    },
+    {
+      "name": "SanAndreasUnity",
+      "url": "https://github.com/in0finite/SanAndreasUnity",
+      "expected_token": "SanAndreasUnity"
+    },
+    {
+      "name": "Impostor",
+      "url": "https://github.com/Impostor/Impostor",
+      "expected_token": "Impostor"
+    },
+    {
+      "name": "jazz2",
+      "url": "https://github.com/deathkiller/jazz2",
+      "expected_token": "deathkiller/jazz2"
+    },
+    {
+      "name": "usque",
+      "url": "https://github.com/Diniboy1123/usque",
+      "expected_token": "Diniboy1123/usque"
+    },
+    {
+      "name": "OpenTPU",
+      "url": "https://github.com/UCSBarchlab/OpenTPU",
+      "expected_token": "OpenTPU"
+    },
+    {
+      "name": "System7",
+      "url": "https://github.com/Kelsidavis/System7",
+      "expected_token": "System7"
+    },
+    {
+      "name": "AbyssEngine",
+      "url": "https://github.com/AbyssEngine/AbyssEngine",
+      "expected_token": "AbyssEngine"
+    },
+    {
+      "name": "Chariot",
+      "url": "https://github.com/ChariotEngine/Chariot",
+      "expected_token": "Chariot"
+    }
+  ]
+}
