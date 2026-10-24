@@ -1,4 +1,4 @@
-# Clean-Room Reimplementations (updated 2026-10-19)
+# Clean-Room Reimplementations (updated 2026-10-24)
 
 > Open-source projects that rebuild closed software from the ground up
 
