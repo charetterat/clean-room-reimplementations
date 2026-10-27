@@ -1,4 +1,4 @@
-# Clean-Room Reimplementations (updated 2026-10-27)
+# Clean-Room Reimplementations (updated 2026-10-28)
 
 > Open-source projects that rebuild closed software from the ground up
 
@@ -69,7 +69,7 @@ Not applications but infrastructure: protocols, servers, hardware runtimes and s
 
 - **29** entries across **3** sections.
 - Compiled from public sources; every linked project carries its own license.
-- Last updated: **2026-10-27**.
+- Last updated: **2026-10-28**.
 - Data lives in `data/content.json` — this README is generated, do not edit by hand.
 
 ## License
